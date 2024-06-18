@@ -8,11 +8,11 @@
 
 body {
   min-height: 100vh;
-  color: #fff;
+  color: #2e2e2e;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #74febd;
+  background-color: #0172af;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -42,7 +42,7 @@ body {
   z-index: -1;
   transform: translateX(-50%);
   border-radius: 0 0 50% 50%;
-  background-color: #0172af;
+  background-color: #74febd;
 }
 
 .head-wrapper {
@@ -52,7 +52,7 @@ body {
 .menu-button {
   width: 2rem;
   cursor: pointer;
-  color: #fff;
+  color: #2e2e2e;
 }
 
 .welcome{
@@ -62,9 +62,19 @@ body {
 }
 
 .welcome h1{
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .welcome p{
   font-weight: 500;
+}
+
+.welcome .img {
+  position: relative;
+}
+
+.welcome .img img{
+  width: 6rem;
+  top: 0;
+  left: 50%;
 }
