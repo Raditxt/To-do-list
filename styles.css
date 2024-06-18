@@ -13,6 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #74febd;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -52,4 +53,18 @@ body {
   width: 2rem;
   cursor: pointer;
   color: #fff;
+}
+
+.welcome{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.welcome h1{
+  font-size: 2rem;
+}
+
+.welcome p{
+  font-weight: 500;
 }
