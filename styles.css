@@ -13,7 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #0172af;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .wrapper {
@@ -33,7 +33,6 @@ body {
     border: 10px #2e2e2e;
   }
 }
-
 
 .wrapper .screen {
   flex: 1;
@@ -62,17 +61,17 @@ body {
   color: #2e2e2e;
 }
 
-.welcome{
+.welcome {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.welcome h1{
+.welcome h1 {
   font-size: 1.5rem;
 }
 
-.welcome p{
+.welcome p {
   font-weight: 500;
 }
 
@@ -80,7 +79,7 @@ body {
   position: relative;
 }
 
-.welcome .img img{
+.welcome .img img {
   width: 6rem;
   top: 0;
   left: 50%;
@@ -102,5 +101,17 @@ body {
 }
 
 .categories .category {
+  background-color: #fff;
   border-radius: 0.5rem;
+  padding: 1.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 10px 20px 5px #00000023;
+  transition: all 0.3s;
+}
+
+.categories .category:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px 5px #00000023;
 }
