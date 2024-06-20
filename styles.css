@@ -115,3 +115,14 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px 5px #00000023;
 }
+
+.category .left img {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.left img {
+  width: 6rem;
+}
+
