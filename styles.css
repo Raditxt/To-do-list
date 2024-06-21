@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar{
+  width: 0;
+}
+
 body {
   min-height: 100vh;
   color: #2e2e2e;
@@ -136,3 +140,31 @@ body {
   opacity: 0.6;
 }
 
+
+.toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-btn.active i{
+  color: green;
+}
+
+.toggle-btn i {
+  font-size: 3rem;
+  color: #2e2e2e;
+  transition: transform 0.3s;
+}
+
+.toggle-btn.active i {
+  transform: translateX(10px);
+}
+
+.category:hover .option{
+  opacity: 1;
+  visibility: visible;
+}
