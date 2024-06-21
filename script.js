@@ -1,5 +1,13 @@
+const wrapper = document.querySelector(".wrapper");
+const menubtn = document.querySelector(".menu-button");
+
+const togglescreen = () => {
+    wrapper.classList.toggle("active");
+}
+
+menubtn.addEventListener("click", togglescreen);
+
 // Toggle btn
-// script.js
 document.querySelectorAll('.category .toggle-btn').forEach(function(btn) {
     btn.addEventListener('click', function() {
       this.classList.toggle('active');
