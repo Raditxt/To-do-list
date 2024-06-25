@@ -66,6 +66,7 @@ body {
   transform: translateX(-50%);
   border-radius: 0 0 50% 50%;
   background-color: #74febd;
+  transition: all 0.3s;
 }
 
 .head-wrapper {
@@ -153,12 +154,18 @@ body {
   opacity: 0.6;
 }
 
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .toggle-btn {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 50px;
+  height: 50px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -168,13 +175,19 @@ body {
 }
 
 .toggle-btn i {
-  font-size: 3rem;
+  font-size: 40px;
   color: #2e2e2e;
   transition: transform 0.3s;
 }
 
-.toggle-btn.active i {
-  transform: translateX(10px);
+.toggle-btn.active i .bx-check-square {
+  transform: scale(0);
+  opacity: 0;
+}
+
+.toggle-btn.active i .bx-check-square{
+  transform: scale(1);
+  opacity: 1;
 }
 
 .category:hover .option{
